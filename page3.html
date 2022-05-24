@@ -4,14 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub</title>
+    <title>Nav Components</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- js that we copy and pasted in the page  -->
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+<!-- navbar  that is lightly colored, across the top of the page. -->
+        <div class="container-fluid">
+<!-- the container here is fluid, meaning 100% across the screen at all times. -->
+            <a class="navbar-brand" href="https://www.youtube.com">
+                <img src="https://pbs.twimg.com/media/DSk9eHvVMAAOgKH.jpg" alt="" width="78" height="100" class="d-inline-block align-text-top">
+                Everything about GitHub
+<!-- youtube hyperlink and a picture of dave -->
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+<!-- navbar that spans across the screen   -->
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar1">
+
+                <ul class="navbar-nav d-flex me-auto">
+
+                    <li class="nav-item active"> <a class="nav-link" href="page1.html">What is GitHub?</a></li>
+                    <li class="nav-item active"> <a class="nav-link" href="page2.html">What does GitHub offer?</a></li>
+                    <li class="nav-item active"> <a class="nav-link" href="Home">Home</a></li>
+<!-- links on the top of the page that take us to youtube reddit and myspace -->
+                    
+                    
+<!-- dropdown menu that shows some links to our favorite websites -->
+<!-- search box with a search button -->
+
+                    </form>
+
+                        
+
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+            <section>
+                <div class="container card">
+<!-- container that makes our text flexible with the page margins  -->
+                    <h1 class="display-1 text-center text-primary">Everything you need to know about GitHub</h1>
+                    <hr>
+<!-- header that centers the text and has a heading style font  -->
+                    
+<!-- header element that centers the text and has a heading style font -->
+
     
+                    <hr>
+                    <h1 class="display-4 text-center">GitHub Commits</h1>
+                    <p>
+                        The commits are able to craft history internationally safely, they are building blocks of “save point” within Git's version control. 
+                        Over time, commits should tell a story of the history of your repository and how it came to be the way that it currently is. 
+                        Commits include lots of metadata in addition to the contents and message, like the author, timestamp, and more. You can make commits to 
+                        different branches, and specify exactly what changes you want to include. Before running a commit it's a great idea to run “git status” 
+                        and when you stage new changes that you'll like to include “git add [file]”. The commits have two phases that help you craft commits properly. 
+                        All commits should be logical, atomic units of change that represent a specific idea. The most related commands are: “git add [file]” “git status” 
+                        “git push” “git log”. The git commit creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire 
+                        repository at specific times. 
+                        
+                    </p>
+<!-- paragraph text that appears in the heading style with a centered title   -->
+                    <hr>
+<!-- group of buttons that are all the same class, but are together in harmony  -->
+                    <hr>
+                    <br>
+                    <br>
+                    <h1 class="display-5 text-center">GitHub Webpage</h1>
+                    <img src="https://i.stack.imgur.com/NNFZu.png">
+
+                    <blockquote class="blockquote text-right bg-light">
+                        <p class="mb-2">"Being a good software engineer is 3% talent, 97% not being distracted by the internet."</p>
+<!-- element that allows us to quote our text at the bottom -->
+                        <footer class="blockquote-footer">Unknown</footer>
+<!-- makes our text appear in a grey color with a dash, completing a quote  -->
+                    </blockquote>
+                </div>
+
+
+            </section>
 
 
 
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--  -->
 </body>
 </html>
