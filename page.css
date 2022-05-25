@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.Tittle{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    font-family: montserrat;
+}
+
+ ul{
+     position: fixed;
+     top: 0;
+     left: 0;
+     margin-left: 0;
+     width: 240px;
+     background: #1e1e1e;
+     height: 100vh;
+     overflow-y: auto;
+ }
+
+ ul li{
+     height: 60px;
+     outline: none;
+ }
+
+ ul li a{
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height: 70px;
+     font-size: 20px;
+     color: white;
+     padding-left: 5%;
+     background: #1e1e1e;
+     border-top: 1px solid rgba(255,255,255,.1);
+     border-bottom: 1px solid black;
+     border-left: 5px solid transparent;
+
+ }
+
+ li a{
+     font-size: small;
+     font-weight: 200;
+    
+ }
+
+ .Active a{
+     color: #b93632;
+     border-left: 6px solid #b93632;
+     background: #1b1b1b;
+
+ }
+
+li{
+    font-size: large;
+    color: white;
+
+}
+
+ section{
+     margin-left: 260px;
+ }
+ 
+.sec1{
+    margin-left: -20px;
+    background: url(home.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+ 
+.sec2{
+    margin-left: -20px;
+    background: url(frontend.jpg) no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 150vh;
+}
+
+.sec3{
+    margin-left: -20px;
+    background: url(backend.jpg) no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 150vh;
+}
+
+.sec4{
+    margin-left: -20px;
+    background: url(projectmanagement.jpg) no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 150vh;
+}
+
+.Socks {
+    color: #030000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+
+.Astro{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
